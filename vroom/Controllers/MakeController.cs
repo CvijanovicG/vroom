@@ -12,7 +12,7 @@ namespace vroom.Controllers
         //make/bikes
         public IActionResult Bikes()
         {
-            Make make = new Make { Id=1, Name = "Harlay Davidson" };
+            Make make = new Make { Id=2, Name = "Harlay Davidson" };
             return View(make);
         }
     }
