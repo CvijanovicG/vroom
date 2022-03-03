@@ -15,3 +15,6 @@
 ###     Copy navbar from bootstrap, coment old navbar from layout an paste on layout new navbar
 ###     change navbar class propertis, remowe all the content from home/index view
 ###     Add Action and View to display list of makes, create Index method, create index view
+### Branch_3: Implement CRUD in MVC Core Part 2
+###     https://www.youtube.com/watch?v=aMnqJN9Fu78&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=15
+###     Create Make/Create method (get and post), create Make/Create view
