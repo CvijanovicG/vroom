@@ -3,17 +3,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using vroom.AppDbContext;
 using vroom.Models;
 
 namespace vroom.Controllers
 {
     public class MakeController : Controller
     {
-        //make/bikes
-        public IActionResult Bikes()
+        private readonly VroomDbContext _db;
+
+        public MakeController(VroomDbContext db)
         {
-            Make make = new Make { Id=2, Name = "Harlay Davidson" };
-            return View(make);
+            _db = db;
+        }
+        public IActionResult Index()
+        {
+            return View(_db.Makes.ToList());
         }
     }
 }
