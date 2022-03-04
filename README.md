@@ -21,3 +21,7 @@
 ### Branch_4: Implement CRUD in MVC Core Part 3
 ###     https://www.youtube.com/watch?v=4ETiJ3kb0xs&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=16
 ###     Custom Make/Index view group button for edit and delete, create make/Delete method, JavaScript popup box for confirm delete action
+### Branch_5: Implement CRUD in MVC Core Part 4
+###     https://www.youtube.com/watch?v=llDWIbFg6LY&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=17
+###     Adding Edit method and view to Edit Makes, copy Delete method for Edit get and Create post for Edit post and change this
+###     create Make/Edit view. View is very similar with Make/Crete view. Copy and paste. Change title,action method and header to Edit
