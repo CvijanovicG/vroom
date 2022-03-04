@@ -32,5 +32,7 @@
 ###     Create Model/Index method and Model/index view. Copy Make/Index view and paste in Model/Index view. Change text-info an btn-info from Make to Model
 ###     Add table header and table data kolumn in table.
 ###     Create Model/Create method get, create Model/Create view, copy Make/Create view and paste. Create Model/Create post action method
-### Brench_7: Implement CRUD for Models of Vehicle -Part 2 and Refactor existing code
+###     Implement CRUD for Models of Vehicle -Part 2 and Refactor existing code
 ###     https://www.youtube.com/watch?v=8X-FeZ7riEo&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=19
+###     Create Model/Edit action method and Model/Edit view.  Refactoring - Shered folder _PartialView  to clean code
+
