@@ -25,3 +25,12 @@
 ###     https://www.youtube.com/watch?v=llDWIbFg6LY&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=17
 ###     Adding Edit method and view to Edit Makes, copy Delete method for Edit get and Create post for Edit post and change this
 ###     create Make/Edit view. View is very similar with Make/Crete view. Copy and paste. Change title,action method and header to Edit
+### Brench_6: Models - CRUD for Models of Vehicle - Part 1
+###     https://www.youtube.com/watch?v=IwOHL5Sa64A&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=18
+###     Eager loading is the process whereby a query for one type of entity also loads related entities as part of the query, 
+###     so that we don't need to execute a separate query for related entities. Eager loading is achieved using the Include() method.
+###     Create Model/Index method and Model/index view. Copy Make/Index view and paste in Model/Index view. Change text-info an btn-info from Make to Model
+###     Add table header and table data kolumn in table.
+###     Create Model/Create method get, create Model/Create view, copy Make/Create view and paste. Create Model/Create post action method
+### Brench_7: Implement CRUD for Models of Vehicle -Part 2 and Refactor existing code
+###     https://www.youtube.com/watch?v=8X-FeZ7riEo&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=19
