@@ -18,3 +18,6 @@
 ### Branch_3: Implement CRUD in MVC Core Part 2
 ###     https://www.youtube.com/watch?v=aMnqJN9Fu78&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=15
 ###     Create Make/Create method (get and post), create Make/Create view
+### Branch_4: Implement CRUD in MVC Core Part 3
+###     https://www.youtube.com/watch?v=4ETiJ3kb0xs&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=16
+###     Custom Make/Index view group button for edit and delete, create make/Delete method, JavaScript popup box for confirm delete action
