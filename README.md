@@ -25,7 +25,7 @@
 ###     https://www.youtube.com/watch?v=llDWIbFg6LY&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=17
 ###     Adding Edit method and view to Edit Makes, copy Delete method for Edit get and Create post for Edit post and change this
 ###     create Make/Edit view. View is very similar with Make/Crete view. Copy and paste. Change title,action method and header to Edit
-### Brench_6: Models - CRUD for Models of Vehicle - Part 1
+### Branch_6: Models - CRUD for Models of Vehicle - Part 1
 ###     https://www.youtube.com/watch?v=IwOHL5Sa64A&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=18
 ###     Eager loading is the process whereby a query for one type of entity also loads related entities as part of the query, 
 ###     so that we don't need to execute a separate query for related entities. Eager loading is achieved using the Include() method.
@@ -35,7 +35,12 @@
 ###     Implement CRUD for Models of Vehicle -Part 2 and Refactor existing code
 ###     https://www.youtube.com/watch?v=8X-FeZ7riEo&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=19
 ###     Create Model/Edit action method and Model/Edit view.  Refactoring - Shered folder _PartialView  to clean code
-### Brench_7: Extension Methods in C#
+### Branch_7: Extension Methods in C#
 ###     https://www.youtube.com/watch?v=Mzoi-gEqRhs&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=21
 ###     Add extension folder in solution, add class and modify
-
+### Branch_8: Authentication and Authorisation Part 1
+###     https://www.youtube.com/watch?v=9ezfoTDIDdo&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=21
+###     Authentication - Login and password, Authorisation - what you can do.
+###     Authentication - access to the main gate, Authorisation - access to different cabins in organization
+###     Identity all class (user,roles,userroles,...), add line in startup.cs, add-migration, update-database and refresh database and see new identity table
+###     Add _LoginPartial on _Layout page. Register and login user
