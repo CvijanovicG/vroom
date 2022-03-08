@@ -35,4 +35,7 @@
 ###     Implement CRUD for Models of Vehicle -Part 2 and Refactor existing code
 ###     https://www.youtube.com/watch?v=8X-FeZ7riEo&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=19
 ###     Create Model/Edit action method and Model/Edit view.  Refactoring - Shered folder _PartialView  to clean code
+### Brench_7: Extension Methods in C#
+###     https://www.youtube.com/watch?v=Mzoi-gEqRhs&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=21
+###     Add extension folder in solution, add class and modify
 
