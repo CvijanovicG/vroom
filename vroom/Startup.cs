@@ -35,8 +35,9 @@ namespace vroom
             });
 
             services.AddDbContext<VroomDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<VroomDbContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<VroomDbContext>()
+                .AddDefaultUI()
+                .AddDefaultTokenProviders();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -55,7 +56,6 @@ namespace vroom
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthentication();
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>
