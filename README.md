@@ -47,3 +47,5 @@
 ### Branch_3: Authentication and Authorization Part 2
 ###     https://www.youtube.com/watch?v=rEvPCoH4Hz8&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=22
 ###     Create new class in Model folder ApplicationUser, Add class to DbContext, add-migration, update-database
+###     Add PhoneNumber column to AspNetUsers table, add field for Phone in Register.cshtml.cs add field in Register.cshtml
+###     Enable roleManager
