@@ -44,8 +44,14 @@
 ###     Authentication - access to the main gate, Authorisation - access to different cabins in organization
 ###     Identity all class (user,roles,userroles,...), add line in startup.cs, add-migration, update-database and refresh database and see new identity table
 ###     Add _LoginPartial on _Layout page. Register and login user
-### Branch_3: Authentication and Authorization Part 2
+### Branch_9: Authentication and Authorization Part 2
 ###     https://www.youtube.com/watch?v=rEvPCoH4Hz8&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=22
 ###     Create new class in Model folder ApplicationUser, Add class to DbContext, add-migration, update-database
 ###     Add PhoneNumber column to AspNetUsers table, add field for Phone in Register.cshtml.cs add field in Register.cshtml
 ###     Enable roleManager
+### Branch_10: Authentication and Authorization - Part 3
+###     https://www.youtube.com/watch?v=XQrt5mws7OQ&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=23
+###     In login.cshtml.cs and Login.cs change Email to Username. Add on Layout page autorization.
+###     Add Authorize in Make and Model controler, cut Registar link from _LoginPartial and paste on _Layout page in dropdown list.
+###     Add in Register.cshtml.cs Authorize for Admin and change return to index page.
+###     Create Helper folder and Roles class. using helpers in Layout page and change
