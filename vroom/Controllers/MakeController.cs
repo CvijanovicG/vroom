@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,10 @@ using vroom.Models;
 
 namespace vroom.Controllers
 {
+    [Authorize(Roles ="Admin,Executive")]
     public class MakeController : Controller
     {
+        
         private readonly VroomDbContext _db;
 
         public MakeController(VroomDbContext db)
