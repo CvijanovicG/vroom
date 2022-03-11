@@ -52,3 +52,6 @@
 ### Branch_10: Authentication and Authorization - Part 3
 ###     https://www.youtube.com/watch?v=XQrt5mws7OQ&list=PL_NVFNExoAxdf_NAE5kz8XAOPNvfc9w2d&index=23
 ###     In login.cshtml.cs and Login.cs change Email to Username. Add on Layout page autorization.
+###     Add Authorize in Make and Model controler, cut Registar link from _LoginPartial and paste on _Layout page in dropdown list.
+###     Add in Register.cshtml.cs Authorize for Admin and change return to index page.
+###     Create Helper folder and Roles class. using helpers in Layout page and change
